@@ -1,0 +1,58 @@
+body {
+    display: grid;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    grid-auto-rows: minmax(150px, auto);
+    max-height:110vh;
+    grid-gap: 1.2em;
+    font-size: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+section {
+    margin: 50px auto;
+    box-shadow: 0 9px 25px -5px black;
+    border-radius: 5px;
+    position: relative;
+}
+
+.card {
+    border: 2px solid #000000;
+    padding: 2em;
+}
+
+.card_header {
+    padding: 1em;
+    font-size: 2em;
+    border: 2px solid #000000;
+    line-height: normal;
+    margin: 1em;
+    text-align: center;
+}
+
+#intro1 {
+    font-size: 1.4em;
+    text-align: center;
+    color: purple;
+}
+
+blockquote { 
+    display: grid;
+    font-size: 1.3em;
+    margin: 2em;
+    padding: 50px;
+    background: linear-gradient(to right, #27c79b2b, #0c6cbf38);
+    border-radius: 25px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}

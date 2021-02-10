@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #27c79b, #0c6cbf);
+    color:rgb(255, 255, 255);
+    border-bottom: 1px solid #000000;
+    box-shadow: 0 9px 25px -5px #d5c6c6;
+    max-height: 100px;
+}
+
+.main_hero {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+    padding: 1em;
+}
+
+.navbar {
+    text-align: right;
+    font-size: 1.2em;
+    padding: 2em;
+    transition: top 0.5s;
+}
+
+a {
+    padding: 5px 20px;
+    &:hover {
+         color: rgb(255, 153, 0);
+        }
+    }
